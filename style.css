@@ -12,6 +12,7 @@ max-width: 1600px;
 }
 
 .sub-container {
+	padding: 128px;
     display: grid;
     grid-template-columns: max-content auto;
 
