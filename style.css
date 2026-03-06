@@ -259,8 +259,9 @@ margin: auto;
 }
 
 .footer {
-	line-height: 10rem;
-	display: block;
+	line-height: 5rem;
+	// display: block;
+	display: none;
 	text-align: center;
 	color: #aaa;
 }
