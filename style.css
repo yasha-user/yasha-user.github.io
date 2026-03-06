@@ -15,6 +15,12 @@ margin: auto;
 max-width: 1600px;
 }
 
+.spec-switch {
+	position: absolute;
+	right: 15px;
+	top: 10px;
+}
+
 .sub-container {
 	padding: 128px;
     display: grid;
@@ -128,4 +134,20 @@ max-width: 1600px;
 .below-pic > a {
 	line-height: 1.5rem;
 	text-align: center;
+}
+
+@media screen  and (min-width: 1200px) and (max-width: 1500px){
+
+}
+
+@media screen and (min-width: 850px) and (max-width: 1200px){
+
+}
+
+@media screen and (min-width: 450px) (max-width: 850px){
+
+}
+
+@media screen and (max-width: 450px){
+
 }
