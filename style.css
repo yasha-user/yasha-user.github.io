@@ -137,6 +137,9 @@ max-width: 1600px;
 }
 
 @media screen  and (max-width: 1500px){
+.under-container {
+		margin: 8px 32px;
+	}
 .sub-container {
 		display: block;
 		padding: 128px;
@@ -163,17 +166,34 @@ margin: auto;
 
 @media screen  and (min-width: 1150px) and (max-width: 1500px){
 	.profile {
-		padding: 0 256px;
+		padding: 0 128px;
+	}
+.below-pic {
+		padding: 32px 64px ;
 	}
 
 }
 
 @media screen and (max-width: 1150px){
+.under-container {
+		margin: 8px 72px;
+		background-color: #fff;
+		border: 2px solid #000;
+	}
 	.pictures {
 		column-count: 2;
 		max-width: 600px;
 	}
+.below-pic {
+		padding: 32px 0;
+	}
 
+}
+@media screen and (min-width: 650px) and (max-width: 1150px){
+
+	.profile {
+		padding: 0 96px;
+	}
 }
 
 @media screen and (max-width: 860px){
@@ -190,16 +210,18 @@ margin: auto;
 .sub-container {
 		padding: 0;
 	}
-.below-pic {
-		padding: 0 128px ;
-	}
 }
 @media screen and (max-width: 690px){
-.below-pic {
-		padding: 0 64px;
+	.below-pic {
+		margin: 8px 32px;
 	}
 .bio-text {
 		padding: 0 32px;
+	}
+}
+@media screen and (max-width: 522px){
+	.below-pic {
+		margin: 0px;
 	}
 }
 @media screen and (max-width: 450px){
@@ -211,10 +233,7 @@ margin: auto;
 		height: 200px;
 	}
 .below-pic {
-		padding: 0 32px;
-	}
-.under-container {
-		margin: 8px 64px;
+		padding: 16px 32px;
 	}
 .under-cover {
 		display: block;
@@ -229,5 +248,11 @@ margin: auto;
 	}
 .pic > img, .pic > a > img {
 		max-width: 220px;
+	}
+}
+
+@media screen and (max-width: 380px){
+.below-pic {
+		padding: 32px 0;
 	}
 }
